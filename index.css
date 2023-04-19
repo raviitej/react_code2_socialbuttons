@@ -1,0 +1,91 @@
+/* Write your code here. */
+
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: 0px;
+}
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  height: 100vh;
+}
+
+.heading {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-weight: 700;
+}
+.button1 {
+  color: #ffffff;
+  background-color: #eab308;
+  margin: 10px;
+  border-radius: 10px;
+  border-style: none;
+  width: 70px;
+  height: 35px;
+}
+
+.button2 {
+  color: #323f4b;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  border-style: none;
+  width: 70px;
+  height: 35px;
+}
+
+.button3 {
+  color: #ffffff;
+  background-color: #1d4ed8;
+  margin: 10px;
+  border-radius: 10px;
+  border-style: none;
+  width: 70px;
+  height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
